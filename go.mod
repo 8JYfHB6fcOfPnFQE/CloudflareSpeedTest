@@ -18,3 +18,6 @@ require (
 
 // Personal fork of XIU2/CloudflareSpeedTest
 // Upstream: https://github.com/XIU2/CloudflareSpeedTest
+// Notes:
+//   - Using go 1.18 for broader compatibility (upstream may bump this later)
+//   - Keeping deps pinned; run `go get -u` periodically to check for updates
